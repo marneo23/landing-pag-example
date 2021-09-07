@@ -1,0 +1,19 @@
+body{
+    background-color: #E3DBDB;
+}
+h1{
+    visibility: hidden;
+}
+
+.barranav{
+    background-color: #4E3D42;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+}
