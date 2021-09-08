@@ -1,19 +1,81 @@
 body{
     background-color: #E3DBDB;
 }
-h1{
-    visibility: hidden;
-}
 
+h2{
+    text-align:center;
+}
+h1{
+ color: #E3DBDB;
+ font-size: 3em;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+
+}
 .barranav{
     background-color: #4E3D42;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    position: fixed; 
+    top: 0;
+    height: 6em;
+    width: 100%;
 }
 
 .opciones{
     display: flex;
     flex-direction: row;
 }
+.botonesnav{
+    display: flex;
+    align-items: center;
+}
+#botonera li {
+    font-family: 'Bebas Neue', cursive;
+	display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    font-size: 1.5em;
+    margin:2em;
+}
+#botonera a{
+    color: #E3DBDB;
+    text-decoration: none;
+}
+
+#botonera a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+
+    .firstheader{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3em;
+    }
+
+    .morriseyderecha{
+        display: flex;
+justify-content: flex-end;
+width: 12em;
+height: 25em;
+    }
+
+    .parrafoyfoto1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .textoparrafo{
+        font-family: 'Noto Sans JP', sans-serif;
+        text-align: center;
+        font-size: 1.7em;
+        margin-left: -10em;
+    }
