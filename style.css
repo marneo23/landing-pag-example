@@ -1,50 +1,70 @@
-body{
+* {font-family: 'Noto Sans JP', sans-serif;}
+
+body {
     background-color: #E3DBDB;
 }
 
-h2{
-    text-align:center;
-}
 h1{
- color: #E3DBDB;
- font-size: 3em;
+    margin-top: 100px;
 }
-.logo{
+.barranav .logo h2{
+    color: #E3DBDB;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+.logo {
     display: flex;
     align-items: center;
     margin-left: 4em;
 
 }
-.barranav{
+.articulo1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barranav {
     background-color: #4E3D42;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    position: fixed; 
+    position: fixed;
     top: 0;
-    height: 6em;
+    left: 0px;
+    right: 0px;
+    height: 5em;
     width: 100%;
 }
 
-.opciones{
+.opciones {
     display: flex;
     flex-direction: row;
 }
-.botonesnav{
+
+.botonesnav {
     display: flex;
     align-items: center;
 }
+
 #botonera li {
     font-family: 'Bebas Neue', cursive;
-	display:inline-flex;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     list-style: none;
     font-size: 1.5em;
-    margin:2em;
+    margin: 2em;
 }
-#botonera a{
+
+#botonera a {
     color: #E3DBDB;
     text-decoration: none;
 }
@@ -54,28 +74,119 @@ h1{
     text-decoration: none;
     cursor: pointer;
 }
+
+
+.firstheader {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.morriseyderecha {
+    display: flex;
+    justify-content: flex-end;
+    width: 10em;
+    height: 30em;
+}
+
+.figures img {
+    max-width: 500px;
+}
+
+.parrafoyfoto1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.textoparrafo {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+    margin-left: -15em;
+    width: 30%
+}
+
+.lineaAbajo {
+    border-style: none none solid none;
+background-color: #CFD2CD;
+}
+
+.contenedorParrafo{
+    max-width: 30em;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.contenedorParrafo .parrafo{
+    flex-direction: row;
+}
+.parrafo {
+    justify-content: center;
+}
+
+.seccionNoticias{
+    border-right:  solid;
+    width: 190em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccionNoticias h2{
+    text-align: center;
+}
+
+.artpublicitario {
+    margin-top: 1em;
+}
+
+
+.Publicidad figure img{
+    max-width: 400px;
+}
+
+figure img{
+    max-width: 600px;
+}
+
+main{
+    display:flex;
+    flex-direction: row ;
+    border-bottom: solid;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Publicidad{
+
+    text-align: center;
   
+}
 
-    .firstheader{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 3em;
-    }
+.formulario{
+    text-align: center;
+    background-color: #E5E6E4;
+}
 
-    .morriseyderecha{
-        display: flex;
-justify-content: flex-end;
-width: 12em;
-height: 25em;
-    }
+.button {
+    background-color: #847577;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
 
-    .parrafoyfoto1{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .textoparrafo{
-        font-family: 'Noto Sans JP', sans-serif;
-        text-align: center;
-        font-size: 1.7em;
-        margin-left: -10em;
-    }
+  .publicidades{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+  }
